@@ -204,6 +204,11 @@ header {
   .leagues h1, .leagues .light-up {
     color: #F1F2F3; }
 
+.leagues:after {
+  content: "";
+  height: 100px;
+  display: block; }
+
 section .row::after {
   clear: both;
   content: "";
@@ -258,5 +263,37 @@ section .group {
       padding-bottom: 20px; }
     section .download-btn {
       margin-bottom: 20px; } }
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  height: 100px; }
+  footer .reg-btn {
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    box-shadow: inset 2px 4px 10px #363840;
+    background: #C8E5F4; }
+  footer .left {
+    float: left;
+    width: 50vw;
+    transition: all 0.5s ease; }
+    footer .left:hover {
+      background: #045688; }
+  footer .right {
+    width: 50vw;
+    float: right;
+    transition: all 0.5s ease; }
+    footer .right:hover {
+      background: #045688; }
+
+@media only screen and (max-width: 500px) {
+  footer .reg-btn {
+    font-size: 12px;
+    word-wrap: break-word;
+    letter-spacing: 0em; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+footer
+  width: 100vw
+  position: fixed
+  bottom: 0
+  height: 100px
+
+  .reg-btn
+    display: inline-block
+    text-align: center
+    line-height: 100px
+    font-weight: 700
+    font-size: 18px
+    letter-spacing: 0.1em
+    box-shadow: inset 2px 4px 10px darken($bg-dark, 5%)
+    background: $light-blue
+
+  .left
+    float: left
+    width: 50vw
+    transition: all .5s ease
+
+    &:hover
+      background: darken($medium-blue, 10%)
+
+  .right
+    width: 50vw
+    float: right
+    transition: all .5s ease
+
+    &:hover
+      background: darken($medium-blue, 10%)
+
+
+@media only screen and (max-width: 500px)
+  footer
+    .reg-btn
+      font-size: 12px
+      word-wrap: break-word
+      letter-spacing: 0em
+
