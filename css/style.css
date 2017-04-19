@@ -196,8 +196,13 @@ header {
   padding-bottom: 30px; }
 
 .leagues {
-  background: #C8E5F4;
-  padding-bottom: 30px; }
+  background: #42444e;
+  padding-bottom: 30px;
+  color: #9799a7; }
+  .leagues .group {
+    border: 2px solid #9799a7; }
+  .leagues h1, .leagues .light-up {
+    color: #F1F2F3; }
 
 section .row::after {
   clear: both;
@@ -235,5 +240,23 @@ section .group {
   border: 2px solid #CFD1D5;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 0px #8b909a; }
+
+@media only screen and (max-width: 500px) {
+  section {
+    font-size: 12px; }
+    section .info {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding-bottom: 20px; }
+      section .info:last-child {
+        margin-right: 0; }
+    section .row {
+      padding-bottom: 0px; }
+    section .row:last-of-type {
+      padding-bottom: 20px; }
+    section .download-btn {
+      margin-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

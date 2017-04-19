@@ -3,11 +3,17 @@
   padding-bottom: 30px
 
 .leagues
-  background: $light-blue
+  background: $bg-dark
   padding-bottom: 30px
+  color: $accent
+
+  .group
+    border: 2px solid $accent
+
+  h1, .light-up
+    color: $bg-light
 
 section
-
   .row::after
     clear: both
     content: ""
@@ -45,3 +51,20 @@ section
     border: 2px solid $primary
     border-radius: 5px
     box-shadow: 1px 1px 15px 0px darken($primary, 25%)
+
+@media only screen and (max-width: 500px)
+  section
+    font-size: 12px
+
+    .info
+      @include span-columns(12)
+      padding-bottom: 20px
+
+    .row
+      padding-bottom: 0px
+
+    .row:last-of-type
+      padding-bottom: 20px
+
+    .download-btn
+      margin-bottom: 20px
