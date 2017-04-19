@@ -1,0 +1,47 @@
+.camps
+  background: $bg-light
+  padding-bottom: 30px
+
+.leagues
+  background: $light-blue
+  padding-bottom: 30px
+
+section
+
+  .row::after
+    clear: both
+    content: ""
+    display: block
+
+  .info
+    @include span-columns(4)
+    text-align: center
+
+  .row
+    padding-bottom: 40px
+
+  .row:last-of-type
+    padding-bottom: 60px
+
+  .download-btn
+    margin: 0 auto
+    margin-top: 20px
+    margin-bottom: 40px
+    max-width: 220px
+    text-align: center
+    height: 50px
+    font-weight: 600
+    line-height: 50px
+    letter-spacing: 0.1em
+    background: $primary
+    border-radius: 5px
+    transition: all .5s ease
+
+  .download-btn:hover
+    background: darken($primary, 50%)
+    box-shadow: 3px 3px 10px 5px darken($primary, 25%)
+
+  .group
+    border: 2px solid $primary
+    border-radius: 5px
+    box-shadow: 1px 1px 15px 0px darken($primary, 25%)
