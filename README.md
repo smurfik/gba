@@ -1,3 +1,3 @@
 # Giant Basketball Academy
 
-Check it out here: <https://smurfik.github.io/gba/>
+Check it out here: <https://giantbasketball.com>
