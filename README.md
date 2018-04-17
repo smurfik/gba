@@ -1,6 +1,6 @@
 # Giant Basketball Academy
 
-Check it out here: <https://giantbasketball.com>
+Check it out [here](https://smurfik.github.io/gba/)
 
 ### Development
 run this if making scss changes:
